@@ -9,9 +9,9 @@ var ads =[
 	"timeFrames": [
 		{
 			"timeFrameNum": 1,
-			"dateBegin": "02/04/2017",
+			"dateBegin": "02/08/2017",
 			"dateEnd": "02/09/2017",
-			"days": ["Sat", "Sun"],
+			"days": ["Sat", "Wed"],
 			"timeBegin": "06:00",
 			"timeEnd": "23:00"
 		},
@@ -104,7 +104,7 @@ var mongodb = require('mongodb');
 //We need to work with "MongoClient" interface in order to connect to a mongodb server.
 var MongoClient = mongodb.MongoClient;
 // Connection URL. This is where your mongodb server is running.
-var url = 'mongodb://localhost:27017/AdsDatabase';
+var url = 'mongodb://localhost:27017/AdsDB';
 
 
 
